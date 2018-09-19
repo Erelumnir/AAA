@@ -1,0 +1,9 @@
+Current Build: Build 0.3.4
+
+Changelog:
+*0.3.4 - Pillarbox Color Change*
+*0.3.2 - Pillarbox Color Change*
+*0.3.1 - Fixed Aspect Ratio*
+*0.3 - Added Language Selection*
+*0.2 - Added Menu Features/Added Placeholder Art*
+*0.1 - First Playable/Simple Setup*
