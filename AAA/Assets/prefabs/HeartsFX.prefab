@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 198537245944252164}
   - component: {fileID: 199091745034169948}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: HeartsFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

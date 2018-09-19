@@ -8,7 +8,7 @@ public class HeartAnimation : MonoBehaviour {
 	public GameObject heartPE;
 	public int time;
 
-	public void PlayAnim()
+	public void PlayHFX()
 	{
 		GameObject heartInst = (GameObject)Instantiate(heartPE);
 		Destroy(heartInst, time);
