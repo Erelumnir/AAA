@@ -5,20 +5,11 @@ using UnityEngine;
 public class MouseCommand : MonoBehaviour {
 
 	// Variables
-	public GameObject smileyPE;
-	public int time;
-
-	private Vector3 mousePos;
-
-	private void Start()
+	public float speed;
+ 
+	void Update()
 	{
-		mousePos = Input.mousePosition;
+		transform.Rotate(new Vector3(Input.GetAxis("Mouse Y"), Input.GetAxis("Mouse X"),0) * Time.deltaTime * speed);
 	}
-
-	void FollowMouse()
-	{
-		// For Instantiating Use Quaternion.Identity
-	}
-
 
 }
