@@ -7,19 +7,18 @@ public class MouseCommand : MonoBehaviour {
 	// Variables
 	public GameObject smileyPE;
 	public int time;
-	public Vector3 offset;
 
-	void Update()
+	private Vector3 mousePos;
+
+	private void Start()
 	{
-		if (Input.GetMouseButtonDown(0))
-		{
-			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-			RaycastHit hit;
-			if (Physics.Raycast(ray, out hit))
-			{
-				GameObject smileyInst = (GameObject)Instantiate(smileyPE, hit.point - offset, Quaternion.identity);
-				Destroy(smileyInst, time);
-			}
-		}
+		mousePos = Input.mousePosition;
 	}
+
+	void FollowMouse()
+	{
+		// For Instantiating Use Quaternion.Identity
+	}
+
+
 }
